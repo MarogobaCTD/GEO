@@ -19,7 +19,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.core.app.ActivityCompat
 import com.example.exercicio2_GPS.ui.theme.Exercicio2GPSTheme
 
-class MainActivity : ComponentActivity() {
+class   MainActivity : ComponentActivity() {
     private var edtPto: EditText? = null;
     var p1: Ponto? = Ponto()
     var p2: Ponto? = Ponto()
